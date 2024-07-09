@@ -15,7 +15,7 @@ function Signup() {
 
     const handleSubmit = (event) => {
         let inputObj = { name,email,password,userType };
-        let url = "http://ims-backend-965d.onrender.com/users/adduser";
+        let url = "https://ims-backend-965d.onrender.com/users/adduser";
         if(userType==="Admin" && secretKey!=="12345"){
           alert("Invalid Admin");
         }
@@ -49,7 +49,7 @@ function Signup() {
                         value="User"
                         id="rad"
                         onChange={(e) => setUserType(e.target.value)}
-                    /> Users
+                    /> User
                     <input
                         type="radio"
                         name="UserType"
