@@ -49,7 +49,7 @@ function Signup() {
                         value="User"
                         id="rad"
                         onChange={(e) => setUserType(e.target.value)}
-                    /> User
+                    /> Users
                     <input
                         type="radio"
                         name="UserType"
