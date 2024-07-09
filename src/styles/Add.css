@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.card{
+    /* background-color: blue; */
+    box-shadow: 2px 2px 7px grey;
+    height: 60vh;
+    width: 40vw;
+    margin: auto;
+    top:20vh;
+    position: fixed;
+    left: 30vw;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-radius: 12px;
+}
+
+h1{
+    text-align: center;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: red; */
+}
+
+.opt{
+    text-align: center;
+    align-items: center;
+    /* background-color: red; */
+}
+
+h4{
+    margin: 0 0 10px 0;
+}
+
+#rad{
+    width: 20px;
+    margin: 0 10px;
+}
+
+input{
+    margin: 5px auto;
+    height: 25px;
+    width: 70%;
+    padding: 2px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+#sub{
+    background-color: rgb(25, 190, 25);
+}
+
+#sub:hover{
+    background-color: rgb(0, 255, 0);
+    cursor: pointer;
+}
+
+#reg{
+    background-color: rgb(25, 120, 200);
+    color: white;
+}
+
+#reg:hover{
+    /* background-color: aqua; */
+    background-color: rgb(0, 140, 255);
+    cursor: pointer;
+}
+
+.log{
+    /* background-color: red; */
+    text-align: center;
+}
